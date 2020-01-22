@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    public interface IRepository
+    public interface IBookRepository
     {
         List<Book> getAll();
         void add(Book book);

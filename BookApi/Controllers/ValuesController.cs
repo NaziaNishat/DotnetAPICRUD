@@ -15,9 +15,9 @@ namespace BookApi.Controllers
         public IServices services;
          
 
-        public ValuesController(IServices iservices)
+        public ValuesController(IServices iServices)
         {
-            services = iservices;
+            services = iServices;
         }
 
         [HttpGet]

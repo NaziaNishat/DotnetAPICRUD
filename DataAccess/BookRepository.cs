@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    public class Repository : IRepository
+    public class BookRepository : IBookRepository
     {
         public List<Book> bookList = new List<Book>();
 
-        public Repository()
+        public BookRepository()
         {
             bookList.Add(new Book { id = 1, title = "hello", author = "author1" });
             bookList.Add(new Book { id = 2, title = "hi", author = "author2" });
