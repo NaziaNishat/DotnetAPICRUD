@@ -1,0 +1,12 @@
+D:\DevFiles\dotnetProjects\BookApi\Services\bin\Debug\netstandard2.0\Services.deps.json
+D:\DevFiles\dotnetProjects\BookApi\Services\bin\Debug\netstandard2.0\Services.dll
+D:\DevFiles\dotnetProjects\BookApi\Services\bin\Debug\netstandard2.0\Services.pdb
+D:\DevFiles\dotnetProjects\BookApi\Services\bin\Debug\netstandard2.0\DataAccess.dll
+D:\DevFiles\dotnetProjects\BookApi\Services\bin\Debug\netstandard2.0\DataAccess.pdb
+D:\DevFiles\dotnetProjects\BookApi\Services\obj\Debug\netstandard2.0\Services.csprojAssemblyReference.cache
+D:\DevFiles\dotnetProjects\BookApi\Services\obj\Debug\netstandard2.0\Services.csproj.CoreCompileInputs.cache
+D:\DevFiles\dotnetProjects\BookApi\Services\obj\Debug\netstandard2.0\Services.AssemblyInfoInputs.cache
+D:\DevFiles\dotnetProjects\BookApi\Services\obj\Debug\netstandard2.0\Services.AssemblyInfo.cs
+D:\DevFiles\dotnetProjects\BookApi\Services\obj\Debug\netstandard2.0\Services.csproj.CopyComplete
+D:\DevFiles\dotnetProjects\BookApi\Services\obj\Debug\netstandard2.0\Services.dll
+D:\DevFiles\dotnetProjects\BookApi\Services\obj\Debug\netstandard2.0\Services.pdb

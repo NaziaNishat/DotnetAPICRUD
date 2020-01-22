@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BookApi.Models;
+using DataAccess;
 using Microsoft.AspNetCore.Mvc;
+using Services;
 
 namespace BookApi.Controllers
 {
@@ -11,41 +12,33 @@ namespace BookApi.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        public IRepository repository;
+        public IServices services;
+         
 
-
-        public ValuesController(IRepository irepository)
+        public ValuesController(IServices iservices)
         {
-            repository = irepository;
+            services = iservices;
         }
-/*
-        // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-        */
 
         [HttpGet]
         public ActionResult<List<Book>> GetAll()
         {
-            //return new string[] { "value1", "value2" };
-            return repository.getAll();
+            //return repository.getAll();
+            return services.getAll();
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
         public ActionResult<Book> Get(int id)
         {
-            return repository.get(id);
+            return services.get(id);
         }
 
         // POST api/values
         [HttpPost]
         public object Post([FromBody] Book book)
         {
-            repository.add(book);
+            services.add(book);
             return book;
         }
 
@@ -53,19 +46,19 @@ namespace BookApi.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] Book book)
         {
-            Book getBook = repository.get(id);
+            Book getBook = services.get(id);
             getBook.title = book.title;
             getBook.author = book.author;
-            return Ok();
+            return Ok(services.getAll());
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            Book getBook = repository.get(id);
-            repository.delete(getBook);
-            return Ok();
+            Book getBook = services.get(id);
+            services.delete(getBook);
+            return Ok(services.getAll());
         }
     }
 }

@@ -1,0 +1,9 @@
+D:\DevFiles\dotnetProjects\BookApi\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+D:\DevFiles\dotnetProjects\BookApi\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+D:\DevFiles\dotnetProjects\BookApi\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+D:\DevFiles\dotnetProjects\BookApi\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+D:\DevFiles\dotnetProjects\BookApi\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\DevFiles\dotnetProjects\BookApi\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+D:\DevFiles\dotnetProjects\BookApi\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+D:\DevFiles\dotnetProjects\BookApi\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+D:\DevFiles\dotnetProjects\BookApi\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb

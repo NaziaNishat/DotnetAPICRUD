@@ -12,3 +12,8 @@ D:\DevFiles\dotnetProjects\BookApi\BookApi\bin\Debug\netcoreapp2.1\BookApi.pdb
 D:\DevFiles\dotnetProjects\BookApi\BookApi\obj\Debug\netcoreapp2.1\BookApi.RazorTargetAssemblyInfo.cache
 D:\DevFiles\dotnetProjects\BookApi\BookApi\obj\Debug\netcoreapp2.1\BookApi.dll
 D:\DevFiles\dotnetProjects\BookApi\BookApi\obj\Debug\netcoreapp2.1\BookApi.pdb
+D:\DevFiles\dotnetProjects\BookApi\BookApi\bin\Debug\netcoreapp2.1\DataAccess.dll
+D:\DevFiles\dotnetProjects\BookApi\BookApi\bin\Debug\netcoreapp2.1\Services.dll
+D:\DevFiles\dotnetProjects\BookApi\BookApi\bin\Debug\netcoreapp2.1\DataAccess.pdb
+D:\DevFiles\dotnetProjects\BookApi\BookApi\bin\Debug\netcoreapp2.1\Services.pdb
+D:\DevFiles\dotnetProjects\BookApi\BookApi\obj\Debug\netcoreapp2.1\BookApi.csproj.CopyComplete
