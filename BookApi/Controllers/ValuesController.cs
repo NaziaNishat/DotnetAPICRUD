@@ -10,21 +10,23 @@ namespace BookApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class Valuescontroller : ControllerBase
     {
-        public IServices services;
-         
+        //public IServices<Book> services;
+        public IServices<Book> services ;
 
-        public ValuesController(IServices iServices)
+
+        public Valuescontroller(IServices<Book> iservices)
         {
-            services = iServices;
+            services = iservices;
         }
 
         [HttpGet]
-        public ActionResult<List<Book>> GetAll()
+        public ActionResult<IEnumerable<Book>> GetAll()
         {
             //return repository.getAll();
-            return services.getAll();
+            return Ok(services.getAll());
+            //return null;
         }
 
         // GET api/values/5
@@ -32,6 +34,8 @@ namespace BookApi.Controllers
         public ActionResult<Book> Get(int id)
         {
             return services.get(id);
+            //return null;
+
         }
 
         // POST api/values
@@ -49,16 +53,20 @@ namespace BookApi.Controllers
             Book getBook = services.get(id);
             getBook.title = book.title;
             getBook.author = book.author;
+            services.update(getBook,id);
             return Ok(services.getAll());
+            //return Ok();
+
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            Book getBook = services.get(id);
-            services.delete(getBook);
+            //Book getBook = services.get(id);
+            services.delete(id);
             return Ok(services.getAll());
+            //return Ok();
         }
     }
 }

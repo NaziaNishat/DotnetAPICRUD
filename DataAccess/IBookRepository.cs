@@ -5,12 +5,15 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    public interface IBookRepository
+    public interface IBookRepository<T> where T : class
     {
-        List<Book> getAll();
-        void add(Book book);
-        Book get(int id);
-        void delete(Book book);
+        IEnumerable<T> getAll();
+        void add(T entity);
+        T get(int id);
+        void delete(int id);
+        void update(T entity, int id);
+
+
 
     }
 }

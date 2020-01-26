@@ -2,39 +2,68 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MongoDB.Bson;
+using MongoDB.Driver;
+
+
 
 namespace DataAccess
 {
-    public class BookRepository : IBookRepository
+    public class BookRepository<T> : IBookRepository<T> where T : class
     {
         public List<Book> bookList = new List<Book>();
 
-        public BookRepository()
+        private readonly IMongoCollection<T> collection;
+        private readonly IMongoDatabase database;
+        String tablename;
+
+
+        public BookRepository(IBookstoreDatabaseSettings settings)
         {
-            bookList.Add(new Book { id = 1, title = "hello", author = "author1" });
-            bookList.Add(new Book { id = 2, title = "hi", author = "author2" });
+            var client = new MongoClient(settings.ConnectionString);
+            database = client.GetDatabase(settings.DatabaseName);
+            tablename = typeof(T).Name;
+
+
+            collection = database.GetCollection<T>(tablename + "Info");
         }
 
-        public void add(Book book)
+        public void add(T entity)
         {
-            book.id = bookList.Max(e => e.id) + 1;
-            bookList.Add(book);
+            //entity.id = bookList.Max(e => e.id) + 1;
+            collection.InsertOne(entity);
+            //bookList.Add(book);
         }
 
-        public void delete(Book book)
+        public void delete(int id)
         {
-            bookList.Remove(book);
+            //bookList.Remove(book);
+            var deleteFilter = Builders<T>.Filter.Eq("id", id);
+            collection.DeleteOne(deleteFilter);
         }
 
-        public Book get(int id)
+        public T get(int id)
         {
-            return bookList.FirstOrDefault(e => e.id == id);
+            //return bookList.FirstOrDefault(e => e.id == id);
+            var readFilter = Builders<T>.Filter.Eq("id", id);
+            var studentDocument = collection.Find(readFilter).FirstOrDefault();
+
+            return studentDocument;
 
         }
 
-        public List<Book> getAll()
+        public IEnumerable<T> getAll()
         {
-            return bookList;
+
+            var documents = collection.Find(new BsonDocument());
+            return documents.ToEnumerable();
+        }
+
+        public void update(T entity, int id)
+        {
+            var filter = Builders<T>.Filter.Eq("id", id);
+            collection.ReplaceOne(filter, entity);
         }
     }
+
 }
