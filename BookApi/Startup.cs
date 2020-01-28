@@ -37,7 +37,8 @@ namespace BookApi
 
 
             //services.AddSingleton<IServices, BookServices>();
-            services.AddSingleton(typeof(IBookRepository<>), typeof(BookRepository<>));
+            //services.AddSingleton(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddSingleton<IGenericRepository, GenericRepository>();
             services.AddSingleton(typeof(IServices<>), typeof(BookServices<>));
 
 
