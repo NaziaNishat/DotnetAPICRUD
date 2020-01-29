@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("BookApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\DevFiles\\dotnetProjects\\BookApi\\BookApi", "BookApi.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("BookApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\DevFiles\\github\\DotnetCRUD\\BookApi", "BookApi.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("XUnitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

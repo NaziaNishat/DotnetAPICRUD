@@ -5216,11 +5216,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DevFiles\\dotnetProjects\\BookApi\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "D:\\DevFiles\\github\\DotnetCRUD\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "D:\\DevFiles\\dotnetProjects\\BookApi\\DataAccess\\DataAccess.csproj",
+      "projectPath": "D:\\DevFiles\\github\\DotnetCRUD\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\nazia\\.nuget\\packages\\",
-      "outputPath": "D:\\DevFiles\\dotnetProjects\\BookApi\\DataAccess\\obj\\",
+      "outputPath": "D:\\DevFiles\\github\\DotnetCRUD\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

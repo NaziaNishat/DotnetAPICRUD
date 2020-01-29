@@ -10,3 +10,15 @@ D:\DevFiles\dotnetProjects\BookApi\Services\obj\Debug\netstandard2.0\Services.As
 D:\DevFiles\dotnetProjects\BookApi\Services\obj\Debug\netstandard2.0\Services.csproj.CopyComplete
 D:\DevFiles\dotnetProjects\BookApi\Services\obj\Debug\netstandard2.0\Services.dll
 D:\DevFiles\dotnetProjects\BookApi\Services\obj\Debug\netstandard2.0\Services.pdb
+D:\DevFiles\github\DotnetCRUD\Services\bin\Debug\netstandard2.0\Services.deps.json
+D:\DevFiles\github\DotnetCRUD\Services\bin\Debug\netstandard2.0\Services.dll
+D:\DevFiles\github\DotnetCRUD\Services\bin\Debug\netstandard2.0\Services.pdb
+D:\DevFiles\github\DotnetCRUD\Services\bin\Debug\netstandard2.0\DataAccess.dll
+D:\DevFiles\github\DotnetCRUD\Services\bin\Debug\netstandard2.0\DataAccess.pdb
+D:\DevFiles\github\DotnetCRUD\Services\obj\Debug\netstandard2.0\Services.csprojAssemblyReference.cache
+D:\DevFiles\github\DotnetCRUD\Services\obj\Debug\netstandard2.0\Services.csproj.CoreCompileInputs.cache
+D:\DevFiles\github\DotnetCRUD\Services\obj\Debug\netstandard2.0\Services.AssemblyInfoInputs.cache
+D:\DevFiles\github\DotnetCRUD\Services\obj\Debug\netstandard2.0\Services.AssemblyInfo.cs
+D:\DevFiles\github\DotnetCRUD\Services\obj\Debug\netstandard2.0\Services.csproj.CopyComplete
+D:\DevFiles\github\DotnetCRUD\Services\obj\Debug\netstandard2.0\Services.dll
+D:\DevFiles\github\DotnetCRUD\Services\obj\Debug\netstandard2.0\Services.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DevFiles\\dotnetProjects\\BookApi\\Services\\Services.csproj": {}
+    "D:\\DevFiles\\github\\DotnetCRUD\\Services\\Services.csproj": {}
   },
   "projects": {
-    "D:\\DevFiles\\dotnetProjects\\BookApi\\DataAccess\\DataAccess.csproj": {
+    "D:\\DevFiles\\github\\DotnetCRUD\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DevFiles\\dotnetProjects\\BookApi\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\DevFiles\\github\\DotnetCRUD\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\DevFiles\\dotnetProjects\\BookApi\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\DevFiles\\github\\DotnetCRUD\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\nazia\\.nuget\\packages\\",
-        "outputPath": "D:\\DevFiles\\dotnetProjects\\BookApi\\DataAccess\\obj\\",
+        "outputPath": "D:\\DevFiles\\github\\DotnetCRUD\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -60,14 +60,14 @@
         }
       }
     },
-    "D:\\DevFiles\\dotnetProjects\\BookApi\\Services\\Services.csproj": {
+    "D:\\DevFiles\\github\\DotnetCRUD\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DevFiles\\dotnetProjects\\BookApi\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\DevFiles\\github\\DotnetCRUD\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\DevFiles\\dotnetProjects\\BookApi\\Services\\Services.csproj",
+        "projectPath": "D:\\DevFiles\\github\\DotnetCRUD\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\nazia\\.nuget\\packages\\",
-        "outputPath": "D:\\DevFiles\\dotnetProjects\\BookApi\\Services\\obj\\",
+        "outputPath": "D:\\DevFiles\\github\\DotnetCRUD\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -86,8 +86,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\DevFiles\\dotnetProjects\\BookApi\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\DevFiles\\dotnetProjects\\BookApi\\DataAccess\\DataAccess.csproj"
+              "D:\\DevFiles\\github\\DotnetCRUD\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\DevFiles\\github\\DotnetCRUD\\DataAccess\\DataAccess.csproj"
               }
             }
           }

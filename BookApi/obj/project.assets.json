@@ -12926,11 +12926,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DevFiles\\dotnetProjects\\BookApi\\BookApi\\BookApi.csproj",
+      "projectUniqueName": "D:\\DevFiles\\github\\DotnetCRUD\\BookApi\\BookApi.csproj",
       "projectName": "BookApi",
-      "projectPath": "D:\\DevFiles\\dotnetProjects\\BookApi\\BookApi\\BookApi.csproj",
+      "projectPath": "D:\\DevFiles\\github\\DotnetCRUD\\BookApi\\BookApi.csproj",
       "packagesPath": "C:\\Users\\nazia\\.nuget\\packages\\",
-      "outputPath": "D:\\DevFiles\\dotnetProjects\\BookApi\\BookApi\\obj\\",
+      "outputPath": "D:\\DevFiles\\github\\DotnetCRUD\\BookApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12949,11 +12949,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\DevFiles\\dotnetProjects\\BookApi\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\DevFiles\\dotnetProjects\\BookApi\\DataAccess\\DataAccess.csproj"
+            "D:\\DevFiles\\github\\DotnetCRUD\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\DevFiles\\github\\DotnetCRUD\\DataAccess\\DataAccess.csproj"
             },
-            "D:\\DevFiles\\dotnetProjects\\BookApi\\Services\\Services.csproj": {
-              "projectPath": "D:\\DevFiles\\dotnetProjects\\BookApi\\Services\\Services.csproj"
+            "D:\\DevFiles\\github\\DotnetCRUD\\Services\\Services.csproj": {
+              "projectPath": "D:\\DevFiles\\github\\DotnetCRUD\\Services\\Services.csproj"
             }
           }
         }
